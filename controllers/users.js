@@ -1,6 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
 
-let users = [];
+let users = [{
+  "firstName": "Dhaval",
+  "lastName": "Maniar",
+  "age": 19
+}];
 
 export const createUser = (req, res) => {
   const user = req.body;
